@@ -1,0 +1,16 @@
+# 忽略系统文件
+.DS_Store       # macOS 桌面服务存储文件
+Thumbs.db       # Windows 缩略图缓存
+
+# 忽略编译产物
+*.class         # Java 字节码
+*.exe           # Windows 可执行文件
+/build/         # 构建目录
+
+# 忽略依赖目录
+node_modules/   # Node.js 依赖
+.vscode/        # IDE 配置（可选是否忽略）
+
+# 忽略敏感文件
+.env            # 环境变量（含密码/密钥）
+*.key           # 密钥文件
